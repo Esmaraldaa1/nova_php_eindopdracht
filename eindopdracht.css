@@ -1,0 +1,55 @@
+body {
+    background-color: #CC998D;
+
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+
+.mappen {
+    float: left;
+    padding-right: 200px;
+}
+
+.file_info {
+    background-color: #CEB5A7;
+    float: left;
+}
+
+textarea {
+    padding-left: 25px;
+    background-color: #E0F2E9;
+}
+
+.show_image {
+    max-width: 300px;
+}
+
+.breadcrumbs {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.breadcrumbs_item {
+    display: inline-block;
+}
+
+.breadcrumbs_item:after {
+    content: " > ";
+}
+
+.breadcrumbs_item:last-child:after
+{
+    content: '';
+}
+
+form {
+    text-align: initial;
+}
+
+form .button {
+    float: right;
+}
